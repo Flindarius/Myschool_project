@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100% - 80px);
+    padding: 0px 20px
+}
+.button{
+    width: 50%;
+    min-width: 300px;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a:hover{
+    transform: scale(1.1)
+}
+.button a{
+    transition: 0.2s;
+    height: 100%;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #24ac7e;
+    font-size: 20px
+}
+
+.button img{
+    height: 80%
+}

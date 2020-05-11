@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+main{
+    display: flex;
+    width: 90%;
+    max-width: 900px;
+    flex-direction: row;
+    margin-top: 80px;
+    height: calc(100% - 80px);
+    padding: 50px 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+#mnt_cntr{
+    width: 350px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#photo_profil{
+    width: 250px;
+    height: 250px;
+    border-radius: 1000px;
+}
+#photo_prof{
+    width: 300px;
+    height: 300px;
+}
+
+.button{
+    margin: 0;
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid #2fd69a;
+    color: #555;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 'poppins'
+}
+.button:hover{
+    background-color: #2fd69a;
+    border: 2px solid #24ac7e;
+    color: white
+}
+
+
+#list_profil{
+    width: 300px;
+    height: 100%;
+    margin-left: 10px;
+}
+#list_profil h3{
+    border-bottom: 2px solid #2fd69a;
+    color: #555;
+    width: max-content;
+    padding: 0px 10px
+}
+
+#uploader{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    margin-bottom: 10px;
+}
+#fileButton{
+    display: none
+}
+
+#supp{
+    border: tomato 2px solid;
+    font-size: 14px
+}
+#supp:hover{
+    background-color: tomato;
+    border: 2px solid brown
+}
